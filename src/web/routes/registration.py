@@ -2112,6 +2112,7 @@ async def run_outlook_batch_registration(
     tm_service_ids: List[int] = None,
     auto_upload_new_api: bool = False,
     new_api_service_ids: List[int] = None,
+    registration_type: str = RoleTag.CHILD.value,
 ):
     """
     异步执行 Outlook 批量注册任务，复用通用并发逻辑
@@ -2157,6 +2158,7 @@ async def run_outlook_batch_registration(
         tm_service_ids=tm_service_ids,
         auto_upload_new_api=auto_upload_new_api,
         new_api_service_ids=new_api_service_ids,
+        registration_type=registration_type,
     )
 
 
@@ -2392,4 +2394,3 @@ async def delete_scheduled_registration_job(job_uuid: str):
             raise HTTPException(status_code=400, detail="无法删除执行中的计划任务")
         crud.delete_scheduled_registration_job(db, job_uuid)
         return {'success': True, 'message': '计划任务已删除'}
-
