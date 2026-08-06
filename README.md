@@ -1,6 +1,9 @@
 # Any Auto Register
 
-<a href="https://bestproxy.com/?keyword=ttccwazd" target="_blank"><img src="docs/assets/bestproxy.gif" alt="BestProxy - 高纯度住宅IP资源，支持一号一IP独享模式，全链路防关联，显著提升账号通过率与长期存活率" width="100%"></a>
+<a href="https://www.rapidproxy.io/?ref=codex" target="_blank">
+  <img src="docs/assets/2222D0BEAA184AC6B6B7ACB849BEA78B.png" alt="RapidProxy为开发者自动化、AI Agent、数据采集和多账号场景提供稳定代理支持。支持 9000 万+ 全球住宅 IP、智能轮换、稳定 Session 和高并发请求，流量长期有效不过期。住宅代理低至 $0.55/GB，使用优惠码 RAPID10可享 9 折优惠。
+" width="100%">
+</a>
 
 # codex-console
 
